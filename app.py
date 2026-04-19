@@ -1,17 +1,3 @@
-"""
-Weather App with GUI
---------------------
-Features:
-1. Current weather for any city
-2. Hourly weather sequence through today
-3. Weekly forecast for any selected day
-
-Uses:
-- Tkinter (built-in GUI)
-- Open-Meteo API (free, no API key needed)
-- Geocoding API (to convert city name -> coordinates)
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 import urllib.request
